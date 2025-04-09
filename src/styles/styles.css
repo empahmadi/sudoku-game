@@ -1,0 +1,72 @@
+.body_light {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.body_dark {
+    background-color: #ffff00;
+    margin: 0;
+    padding: 0;
+}
+
+/* Button styles: */
+.main_button_light {
+    font: 32px "Arial";
+    background-color: #ffffff;
+    color: #139FCE;
+    border: 2px solid #139FCE;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.main_button_light:hover {
+    background-color: #139FCE;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main_button_dark {
+    font: 32px "Arial";
+    background-color: #ffffff;
+    color: #139FCE;
+    border: 2px solid #139FCE;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.main_button_dark:hover {
+    background-color: #139FCE;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.start_popup_button_light {
+    font: 32px "Arial";
+    background-color: #ffffff;
+    color: #139FCE;
+    border: 1px solid #139FCE;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.start_popup_button_light:hover {
+    background-color: #139FCE;
+    color: #ffffff;
+}
+
+.start_popup_button_dark {
+    font: 32px "Arial";
+    background-color: #ffffff;
+    color: #139FCE;
+    border: 1px solid #139FCE;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.start_popup_button_dark:hover {
+    background-color: #139FCE;
+    color: #ffffff;
+}
