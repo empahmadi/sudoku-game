@@ -17,7 +17,6 @@ class Menu(QWidget):
         self.setFixedSize(600, 600)
         self.setStyleSheet(self.styles)
         self.setProperty("class", f"body_{self.theme}")
-        print(self.property("class"))
 
         label = QLabel("SUDOKU")
         label.setAlignment(Qt.AlignCenter)

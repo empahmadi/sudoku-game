@@ -27,6 +27,12 @@ class SudokuApp(QMainWindow):
             self.open_settings()
         elif event == 'done':
             kwargs.get('dialog').accept()
+        elif event == 'new_game':
+            kwargs.get('dialog').accept()
+            # save the result and start a new game
+        elif event == 'menu':
+            kwargs.get('dialog').accept()
+            self.open_menu()
         elif event == 'quit_game':
             self.close()
 
@@ -34,7 +40,7 @@ class SudokuApp(QMainWindow):
         self.change_screen(Menu(self, self.event_handler, self.styles, self.theme))
 
     def open_board(self, level):
-        self.change_screen(BoardUI(level, self))
+        self.change_screen(BoardUI(level, self, self.event_handler, self.styles, self.theme))
 
     def open_settings(self):
         # todo: implement settings UI
